@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="MDB Bootstrap 4" version="1.0" date="2020-12-25" compatibility="2.3.1">
+	<author name ="e107 Inc" email="e107inc@something.com" url="http://e107.org" />
+	<summary>MDB Bootstrap4 generic theme (under development)</summary>
+	<description>For testing only</description>
+	<category>generic</category>
+	<keywords>
+		<word>bootstrap</word>
+		<word>clean</word>
+	</keywords>
+	<libraries>
+		<library name="bootstrap" version="4" scope="all"/>
+		<library name="fontawesome" version="5" scope="all"/>
+	</libraries>
+	<stylesheets>
+		<css file="style.css" name="Default"/>
+	</stylesheets>
+	<screenshots>
+		<image>preview_frontend.png</image>
+	</screenshots>
+	<layouts>
+		<layout name='home' title='Home Page' >
+			<custompages>FRONTPAGE</custompages>
+		</layout>
+			<layout name='full' title='Full' >
+			<custompages>forum/ download/</custompages>
+		</layout>
+		<layout name='sidebar_right' title='Sidebar (right)' default='true' />
+	</layouts>
+</e107Theme>
