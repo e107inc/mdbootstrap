@@ -11,7 +11,7 @@
 - side........vertical   with list-group 	and ul/li/a version, ul.list-group + li.list-group-item + a
 - side-alt....vertical   with list-group 	and div/a version, 	 div.list-group + a.list-group-item.list-group-item-action 
 - footer......horizontal with dropdown   	and ul/li/a version, ul.nav + li.nav-item + a.nav-link.
-- footer-alt..horizontal without dropdown   and nav/a version, nav.nav + a.nav-link 
+- footer-alt..horizontal with dropdown   	and nav/a version, nav.nav + a.nav-link 
 - alt.........vertical   with flex-column   and nav/li/a version, nav.nav.flex-column + li.nav-item + a.nav-link
 - alt5........horizontal with dropdown   	and nav/a version, nav.nav  + a.nav-item.nav-link
 */
