@@ -20,6 +20,7 @@ class theme implements e_theme_render
 
 		e107::js('theme', 'assets/js/mdb.min.js', 'jquery');
 	}
+
 	function tablestyle($caption, $text, $mode='', $options = array())
 	{
 
@@ -28,12 +29,44 @@ class theme implements e_theme_render
 		// default style
 		// only if this always work, play with different styles
 
-		if(!empty($caption))
-		{
-			echo '<div class="my-4">' . $caption . '</div>';
-		}
-		echo $text;
 
+		switch($style)
+		{
+ 
+			case "footer": 
+				if(!empty($caption))
+				{
+					echo '<h5 class="text-uppercase font-weight-bold">' . $caption . '</h5>';
+					echo '<hr class="white mb-3 mt-0 d-inline-block mx-auto" style="width: 60px;">';
+				}
+				echo $text;
+			break;
+
+
+			case "main":   //for style with name main, mainly for frontpage
+				if(!empty($caption))
+				{
+					echo '<div class="my-4">' . $caption . '</div>';
+				}
+				echo $text;
+			break;
+
+			case "default":   //for style with name default
+				if(!empty($caption))
+				{
+					echo '<div class="my-4">' . $caption . '</div>';
+				}
+				echo $text;
+			break;			
+		
+			default:  //if there is no style
+
+			if(!empty($caption))
+			{
+				echo '<div class="my-4">' . $caption . '</div>';
+			}
+			echo $text;
+		}
 		return;
 	}
 
