@@ -215,7 +215,7 @@ $NAVIGATION_TEMPLATE['alt'] 	 = $NAVIGATION_TEMPLATE['footer'];
 $element_class           = ' class="nav flex-column {NAV_CLASS}" ';
 $item_class              = ' class="nav-item" ';
 $item_class_active       = ' class="nav-item active" ';
-$item_class_submenu      = ' class="nav-item disabled" ';
+
 
 $NAVIGATION_TEMPLATE['alt']['start'] 		 = "<nav {$element_class}>";
 $NAVIGATION_TEMPLATE['alt']['item'] 		 = "<li {$item_class}>
@@ -238,7 +238,6 @@ $NAVIGATION_TEMPLATE['alt5'] 	 = $NAVIGATION_TEMPLATE['footer'];
 $element_class           = ' class="nav {NAV_CLASS}" ';
 $item_class              = ' class="nav-item nav-link" ';
 $item_class_active       = ' class="nav-item nav-link active" ';
-$item_class_submenu      = ' class="nav-link dropdown-toggle" ';
 
 $NAVIGATION_TEMPLATE["alt5"]["start"] 				= "<nav {$element_class}>";
 $NAVIGATION_TEMPLATE["alt5"]["item"] 					= "<a {$item_class} href='{NAV_URL}'{NAV_OPEN} title='{NAV_DESCRIPTION}'>{NAV_ICON}{NAV_NAME}</a>";
