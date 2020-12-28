@@ -1,0 +1,5 @@
+/* default is white, fix mdb missing dropdown footer styling */
+
+footer.page-footer a.dropdown-item {
+    color: initial;
+}
