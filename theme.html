@@ -12,7 +12,7 @@
 		  {NAVIGATION=main}
 		  </div>
 		</div>
-	  </nav>
+	</nav>
 	
 	<!--- Optional custom header template controlled by theme_shortcodes -->
 	{---HEADER---}
@@ -20,65 +20,34 @@
 	<!-- Page Content -->
 	{---LAYOUT---}
  
-	
-	
-<!-- Footer -->
-<footer class="page-footer primary-color pt-4">
-	{SETSTYLE=footer}
-	<!-- Footer Links -->
-	<div class="container text-center text-md-left">
-	  <!-- Grid row -->
-	  <div class="row">
-		<div class="col-md-5 mt-md-0 mt-3">
-		  	{MENUAREA=10}
+	<footer class="page-footer primary-color pt-4">
+		{SETSTYLE=footer}
+		<div class="container text-center text-md-left">
+			<div class="row">
+				<div class="col-md-5 mt-md-0 mt-3">
+					{MENUAREA=10}
+				</div>
+				<hr class="clearfix w-100 d-md-none pb-3">
+				<div class="col-md-4 mb-md-0 mb-3">
+					{MENUAREA=11}
+				</div>
+				<hr class="clearfix w-100 d-md-none pb-3">
+				<div class="col-md-3 mb-md-0 mb-3">
+					{MENUAREA=12}
+				</div>
+			</div>
+			<hr class="my-2">
+			{SETSTYLE=footer-small}
+			<div class="row  font-small ">
+				<div class="col-md-8 mt-md-0 my-2 d-flex justify-content-center text-uppercase">
+					{MENUAREA=21}
+				</div>
+				<div class="col-md-4 mb-md-0 my-2  d-flex justify-content-center">
+					{MENUAREA=22}
+				</div>
+			</div> 
 		</div>
-		<hr class="clearfix w-100 d-md-none pb-3">
-		<div class="col-md-4 mb-md-0 mb-3">
-			{MENUAREA=11}
+		<div class="footer-copyright text-center py-3">{SITEDISCLAIMER}
 		</div>
-		<hr class="clearfix w-100 d-md-none pb-3">
-		<div class="col-md-3 mb-md-0 mb-3">
-			{MENUAREA=12}
-			<h5 class="pl-3 text-uppercase font-weight-bold">Links</h5>
-			<hr class="ml-3 white mb-3 mb-2 mt-0 d-inline-block" style="width: 60px;">
-			{NAVIGATION: type=main&layout=alt}
-		</div>
-	  </div>
-	  <!-- Grid row -->
-	  <hr class="my-2">
-	  <!-- Grid row -->
-	  <div class="row  font-small ">
-  
-		<!-- Grid column -->
-		<div class="col-md-8 mt-md-0 my-2 d-flex justify-content-center">
-			{NAVIGATION: type=main&layout=footer&class=text-uppercase}	 
-		</div>
-		<!-- Grid column -->
-  
-		<!-- Grid column -->
-		<div class="col-md-4 mb-md-0 my-2  d-flex justify-content-center">
-			<!-- Social icons -->
-			{XURL_ICONS: class=mr-3}
-		</div>
-		<!-- Grid column -->
-  
-		 
-  
-	  </div>
-	  <!-- Grid row -->  
-  
-	</div>
-	<!-- Footer Links -->
-  
-	<!-- Copyright -->
-	<div class="footer-copyright text-center py-3">{SITEDISCLAIMER}
-	</div>
-	<!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
-
-	
-	
-	<!-- Javascripts and other information are automatically added below here -->
-	</body> <!-- This tag is not necessary and is ignored and replaced. Left here only as a reference -->
+	</footer>
+</body>

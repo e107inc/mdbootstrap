@@ -1,5 +1,11 @@
 /* default is white, fix mdb missing dropdown footer styling */
-
 footer.page-footer a.dropdown-item {
     color: initial;
+}
+
+/* fix pl-3 for caption and added div by core */
+footer.page-footer div.cpage-menu,
+footer.page-footer div.news-grid-footer
+{
+	padding-left: 1rem!important;
 }
