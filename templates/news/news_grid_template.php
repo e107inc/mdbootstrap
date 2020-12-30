@@ -112,10 +112,10 @@
     $NEWS_GRID_TEMPLATE['footer-media-list']['start'] = '<div class="news-grid-footer">';
 
 	$NEWS_GRID_TEMPLATE['footer-media-list']['item'] = '{SETIMAGE: w=70&h=70&crop=1}
-	<div class="media mb-3">
+	<div class="d-flex py-2">
 		{NEWS_IMAGE: type=tag&class=d-flex mr-3&placeholder=1}			 
-		<div class="media-body font-small text-sm-left">
-		<h5 class="mt-0 font-weight-bold">{NEWS_TITLE=link}</h5>
+		<div class="font-small text-sm-left">
+		<h5 class="mt-0 font-weight-bold">{NEWS_TITLE: link=1}</h5>
 		{NEWS_SUMMARY: limit=60}
 		</div>
 	</div>';

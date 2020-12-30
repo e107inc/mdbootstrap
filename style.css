@@ -4,8 +4,8 @@ footer.page-footer a.dropdown-item {
 }
 
 /* fix pl-3 for caption and added div by core */
-footer.page-footer div.cpage-menu,
-footer.page-footer div.news-grid-footer
+/* fix pl-3 for caption and added div by core */
+footer.page-footer nav.flex-column
 {
-	padding-left: 1rem!important;
+	margin-left: -1rem!important;
 }

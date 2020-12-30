@@ -32,11 +32,15 @@ class theme implements e_theme_render
 
 		switch($style)
 		{
+			case "footer-small": 
+				echo $text;
+			break;
+
 			case "footer": 
 				if(!empty($caption))
 				{ 
-					echo '<h5 class="pl-3 text-uppercase font-weight-bold">' . $caption . '</h5>';
-					echo '<hr class="ml-3 white mb-3 mb-2 mt-0 d-inline-block" style="width: 60px;">';
+					echo '<h5 class="text-uppercase font-weight-bold">' . $caption . '</h5>';
+					echo '<hr class="white mb-3  mt-0 d-inline-block" style="width: 60px;">';
 				}
 				echo $text;
 			break;
