@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.3.1 (git)" timestamp="1609327718" >
+	<database>
+	<dbTable name="menus">
+		<item>
+			<field name="menu_id">1</field>
+			<field name="menu_name">login_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">login_menu/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">2</field>
+			<field name="menu_name">news_months_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">2</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">news/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">3</field>
+			<field name="menu_name">xurl_menu</field>
+			<field name="menu_location">22</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">social/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">4</field>
+			<field name="menu_name">contact_menu</field>
+			<field name="menu_location">2</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">contact/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">5</field>
+			<field name="menu_name">navigation_menu</field>
+			<field name="menu_location">12</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">navigation/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": "LINKS"
+    },
+    "type": "main",
+    "layout": "alt5"
+}</field>
+		</item>
+		<item>
+			<field name="menu_id">6</field>
+			<field name="menu_name">navigation_menu</field>
+			<field name="menu_location">107</field>
+			<field name="menu_order">2</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">navigation/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": ""
+    },
+    "type": "main",
+    "layout": "side"
+}</field>
+		</item>
+		<item>
+			<field name="menu_id">7</field>
+			<field name="menu_name">navigation_menu</field>
+			<field name="menu_location">107</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">navigation/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": ""
+    },
+    "type": "main",
+    "layout": "footer"
+}</field>
+		</item>
+		<item>
+			<field name="menu_id">8</field>
+			<field name="menu_name">navigation_menu</field>
+			<field name="menu_location">21</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">navigation/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": ""
+    },
+    "type": "main",
+    "layout": "footer"
+}</field>
+		</item>
+		<item>
+			<field name="menu_id">9</field>
+			<field name="menu_name">footer-content</field>
+			<field name="menu_location">10</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">8</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">10</field>
+			<field name="menu_name">news_grid_menu</field>
+			<field name="menu_location">11</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">news/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": "Media List"
+    },
+    "category": "",
+    "source": "latest",
+    "layout": "footer-media-list",
+    "count": "2",
+    "feature": "0",
+    "titleLimit": "0",
+    "summaryLimit": "0"
+}</field>
+		</item>
+<item>
+			<field name="menu_id">11</field>
+			<field name="menu_name">login_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">login_menu/</field>
+			<field name="menu_layout">full</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">12</field>
+			<field name="menu_name">news_months_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">2</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">news/</field>
+			<field name="menu_layout">full</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">13</field>
+			<field name="menu_name">xurl_menu</field>
+			<field name="menu_location">22</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">social/</field>
+			<field name="menu_layout">full</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">14</field>
+			<field name="menu_name">contact_menu</field>
+			<field name="menu_location">2</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">contact/</field>
+			<field name="menu_layout">full</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">15</field>
+			<field name="menu_name">navigation_menu</field>
+			<field name="menu_location">12</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">navigation/</field>
+			<field name="menu_layout">full</field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": "LINKS"
+    },
+    "type": "main",
+    "layout": "alt5"
+}</field>
+		</item>
+		<item>
+			<field name="menu_id">16</field>
+			<field name="menu_name">navigation_menu</field>
+			<field name="menu_location">107</field>
+			<field name="menu_order">2</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">navigation/</field>
+			<field name="menu_layout">full</field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": ""
+    },
+    "type": "main",
+    "layout": "side"
+}</field>
+		</item>
+		<item>
+			<field name="menu_id">17</field>
+			<field name="menu_name">navigation_menu</field>
+			<field name="menu_location">107</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">navigation/</field>
+			<field name="menu_layout">full</field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": ""
+    },
+    "type": "main",
+    "layout": "footer"
+}</field>
+		</item>
+		<item>
+			<field name="menu_id">18</field>
+			<field name="menu_name">navigation_menu</field>
+			<field name="menu_location">21</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">navigation/</field>
+			<field name="menu_layout">full</field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": ""
+    },
+    "type": "main",
+    "layout": "footer"
+}</field>
+		</item>
+		<item>
+			<field name="menu_id">19</field>
+			<field name="menu_name">footer-content</field>
+			<field name="menu_location">10</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">8</field>
+			<field name="menu_layout">full</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">20</field>
+			<field name="menu_name">news_grid_menu</field>
+			<field name="menu_location">11</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">news/</field>
+			<field name="menu_layout">full</field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": "Media List"
+    },
+    "category": "",
+    "source": "latest",
+    "layout": "footer-media-list",
+    "count": "2",
+    "feature": "0",
+    "titleLimit": "0",
+    "summaryLimit": "0"
+}</field>
+		</item>
+<item>
+			<field name="menu_id">21</field>
+			<field name="menu_name">login_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">login_menu/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">22</field>
+			<field name="menu_name">news_months_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">2</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">news/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">23</field>
+			<field name="menu_name">xurl_menu</field>
+			<field name="menu_location">22</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">social/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">24</field>
+			<field name="menu_name">contact_menu</field>
+			<field name="menu_location">2</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">contact/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">25</field>
+			<field name="menu_name">navigation_menu</field>
+			<field name="menu_location">12</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">navigation/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": "LINKS"
+    },
+    "type": "main",
+    "layout": "alt5"
+}</field>
+		</item>
+		<item>
+			<field name="menu_id">26</field>
+			<field name="menu_name">navigation_menu</field>
+			<field name="menu_location">107</field>
+			<field name="menu_order">2</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">navigation/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": ""
+    },
+    "type": "main",
+    "layout": "side"
+}</field>
+		</item>
+		<item>
+			<field name="menu_id">27</field>
+			<field name="menu_name">navigation_menu</field>
+			<field name="menu_location">107</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">navigation/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": ""
+    },
+    "type": "main",
+    "layout": "footer"
+}</field>
+		</item>
+		<item>
+			<field name="menu_id">28</field>
+			<field name="menu_name">navigation_menu</field>
+			<field name="menu_location">21</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">navigation/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": ""
+    },
+    "type": "main",
+    "layout": "footer"
+}</field>
+		</item>
+		<item>
+			<field name="menu_id">29</field>
+			<field name="menu_name">footer-content</field>
+			<field name="menu_location">10</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">8</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">30</field>
+			<field name="menu_name">news_grid_menu</field>
+			<field name="menu_location">11</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">news/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms">{
+    "lastname_74758209201093747": "",
+    "caption": {
+        "English": "Media List"
+    },
+    "category": "",
+    "source": "latest",
+    "layout": "footer-media-list",
+    "count": "2",
+    "feature": "0",
+    "titleLimit": "0",
+    "summaryLimit": "0"
+}</field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>
